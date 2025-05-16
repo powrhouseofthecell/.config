@@ -1,0 +1,20 @@
+[alias]
+	ac = !git add -A && git commit
+	acp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+	hist = log --oneline --graph --parents --decorate --all
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[user]
+	name = powrhouseofthecell
+	email = theshahzuhaib96@gmail.com
+[rerere]
+	enabled = true

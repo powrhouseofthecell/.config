@@ -11,7 +11,7 @@ local config = wezterm.config_builder()
 -- OperatorMonoLig Nerd Font
 -- JetBrainsMono Nerd Font
 config.font = wezterm.font("JetBrainsMono Nerd Font")
-config.font_size = 16.3
+config.font_size = 15
 
 config.enable_tab_bar = true
 
@@ -26,8 +26,8 @@ config.window_padding = {
 }
 config.macos_window_background_blur = 10
 
-config.color_scheme = "catppuccin-mocha"
--- config.color_scheme = "rose-pine"
+-- config.color_scheme = "catppuccin-mocha"
+config.color_scheme = "rose-pine"
 -- config.color_scheme = "kanagawabones"
 -- config.color_scheme = "Equilibrium Gray Dark (base16)"
 -- config.color_scheme = "zenbones_dark"

@@ -144,7 +144,7 @@ alias sd="cd ~ && cd \$(find ~/Desktop ~/Documents \( -path '*/node_modules' -o 
 alias gcr="create_gh_repo"
 alias ip="ipconfig getifaddr en0"
 alias dotfiles='git --git-dir=$HOME/Desktop/Zuhaib/.dotfiles --work-tree=$HOME'
-alias clean='rm -rf .zsh_history .cache/ .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .venvs/ .DS_Store'
+alias clean='rm -rf .zsh_history .lesshst .cache/ .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .venvs/ .DS_Store'
 
 function configure_personal_user_for_git {
   git config user.name "powrhouseofthecell"

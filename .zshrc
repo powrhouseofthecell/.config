@@ -128,7 +128,7 @@ alias cdd='make_change_directory'
 alias l='eza -lah --color=always --icons=always'
 alias ls='eza -l --color=always --long --no-filesize --icons=always --no-time --no-user --no-permissions'
 alias serve='python3 -m http.server'
-alias opennote='nvim ~/Documents/genesis/cli_notes.md'
+alias opennote='nvim ~/Documents/genesis/Index/cli_notes.md'
 alias client='change_to_clients'
 alias office='change_to_office'
 alias L='change_to_learning'
@@ -186,13 +186,13 @@ cat_file() {
 }
 
 function note {
-  echo "\`\`\`" >> $HOME/Documents/genesis/cli_notes.md
-  echo "💡 $(date)" >> $HOME/Documents/genesis/cli_notes.md
-  echo "\`\`\`" >> $HOME/Documents/genesis/cli_notes.md
-  echo "" >> $HOME/Documents/genesis/cli_notes.md
-  echo "> $@" >> $HOME/Documents/genesis/cli_notes.md
-  echo "---" >> $HOME/Documents/genesis/cli_notes.md
-  echo "" >> $HOME/Documents/genesis/cli_notes.md
+  echo "\`\`\`" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "💡 $(date)" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "\`\`\`" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "> $@" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "---" >> $HOME/Documents/genesis/Index/cli_notes.md
+  echo "" >> $HOME/Documents/genesis/Index/cli_notes.md
 }
 
 export NVM_DIR="$HOME/.nvm"

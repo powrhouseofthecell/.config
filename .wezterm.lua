@@ -10,8 +10,8 @@ local config = wezterm.config_builder()
 -- FiraCode Nerd Font Mono
 -- OperatorMonoLig Nerd Font
 -- JetBrainsMono Nerd Font
-config.font = wezterm.font("JetBrainsMono Nerd Font")
-config.font_size = 15
+config.font = wezterm.font("BlexMono Nerd Font Mono")
+config.font_size = 17
 
 config.enable_tab_bar = true
 
@@ -27,8 +27,9 @@ config.window_padding = {
 config.macos_window_background_blur = 10
 
 -- config.color_scheme = "catppuccin-mocha"
-config.color_scheme = "rose-pine"
 -- config.color_scheme = "kanagawabones"
+config.color_scheme = 'Ayu Mirage'
+-- config.color_scheme = "rose-pine"
 -- config.color_scheme = "Equilibrium Gray Dark (base16)"
 -- config.color_scheme = "zenbones_dark"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"

@@ -1,5 +1,5 @@
-# Amazon Q pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
+# Kiro CLI pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
 # Q pre block. Keep at the top of this file.
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -144,7 +144,7 @@ alias sd="cd ~ && cd \$(find ~/Desktop ~/Documents \( -path '*/node_modules' -o 
 alias gcr="create_gh_repo"
 alias ip="ipconfig getifaddr en0"
 alias dotfiles='git --git-dir=$HOME/Desktop/Zuhaib/.dotfiles --work-tree=$HOME'
-alias clean='rm -rf .zsh_history .lesshst .cache/ .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .venvs/ .DS_Store'
+alias clean='rm -rf .zsh_history .lesshst .cache/ .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .DS_Store'
 
 function configure_personal_user_for_git {
   git config user.name "powrhouseofthecell"
@@ -207,5 +207,17 @@ source /Users/znazir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/znazir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Amazon Q post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
+
+# Added by Antigravity
+export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"

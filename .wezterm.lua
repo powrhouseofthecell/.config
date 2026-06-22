@@ -10,7 +10,7 @@ local config = wezterm.config_builder()
 -- FiraCode Nerd Font Mono
 -- OperatorMonoLig Nerd Font
 -- JetBrainsMono Nerd Font
-config.font = wezterm.font("BlexMono Nerd Font Mono")
+config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 17
 
 config.enable_tab_bar = true

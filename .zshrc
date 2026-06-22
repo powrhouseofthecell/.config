@@ -135,6 +135,7 @@ alias L='change_to_learning'
 alias P='change_to_projects'
 alias gs='git status'
 alias gcp='configure_personal_user_for_git'
+alias gce='configure_eth_user_for_git'
 alias gcw='configure_work_user_for_git'
 alias genesis='nvim ~/Documents/genesis/'
 alias nf='cd ~ && nvim $(fzf -m --preview="bat --color=always {}")'
@@ -144,11 +145,16 @@ alias sd="cd ~ && cd \$(find ~/Desktop ~/Documents \( -path '*/node_modules' -o 
 alias gcr="create_gh_repo"
 alias ip="ipconfig getifaddr en0"
 alias dotfiles='git --git-dir=$HOME/Desktop/Zuhaib/.dotfiles --work-tree=$HOME'
-alias clean='rm -rf .zsh_history .lesshst .cache/ .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .DS_Store'
+alias clean='rm -rf .zsh_history .lesshst .cache/ .zcompdump-MAC-0623-007-5.9.zwc .zcompdump-MAC-0623-007-5.9 .zcompdump-iQuasars-MacBook-Pro-5.9.zwc .zcompdump-iQuasars-MacBook-Pro-5.9 .npm/ .bash_history .DS_Store'
 
 function configure_personal_user_for_git {
   git config user.name "powrhouseofthecell"
   git config user.email "theshahzuhaib96@gmail.com"
+}
+
+function configure_eth_user_for_git {
+  git config user.name "zuhaib-ethrx"
+  git config user.email "zuhaib@ethrx.com"
 }
 
 function configure_work_user_for_git {
@@ -221,3 +227,7 @@ export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/znazir/.antigravity/antigravity/bin:$PATH"
+export PATH="/usr/local/opt/openssl@3/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/znazir/.antigravity-ide/antigravity-ide/bin:$PATH"
